@@ -1,1 +1,13 @@
-<img src="./dorayaki.svg" alt="どらやき — TypeScript, Next.js" width="100%"/>
+```typescript
+const profile: {
+  name: string;
+  role: string;
+  techStack: string[];
+  message: string;
+} = {
+  name: "どらやき",
+  role: "Web Developer",
+  techStack: ["TypeScript", "Next.js"],
+  message: "ぱっと思いついたらとりあえず作ってみるタイプです。"
+};
+```
